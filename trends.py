@@ -41,7 +41,7 @@ def tweet_time(tweet):
 
 def tweet_location(tweet):
     """Return a position (see geo.py) that represents the tweet's location."""
-    "*** YOUR CODE HERE ***"
+    return make_position(tweet["latitude"],tweet["longitude"])
 
 def tweet_string(tweet):
     """Return a string representing the tweet."""
