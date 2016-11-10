@@ -49,10 +49,10 @@ def tweet_string(tweet):
 
 def apenasPalavras(string):
     novaString = ""
-    for i in string:
-        if i.isalpha() == True or i == " ":
-            novaString += i
-        elif i.isalpha() == False:
+    for letra in string:
+        if letra.isalpha() == True or letra == " ":
+            novaString += letra
+        elif letra.isalpha() == False:
             novaString += " "
     return novaString
 
